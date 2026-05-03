@@ -24,7 +24,10 @@ The dataset consists of e-commerce HTML pages such as:
 - Product listings
 - Category pages
 
-### Example Input (HTML)
+### Instruction:
+Extract product details from the HTML.
+
+### Input:
 ```html
 <div class="product">
   <h1>Wireless Headphones</h1>
@@ -32,7 +35,9 @@ The dataset consists of e-commerce HTML pages such as:
   <p>Noise cancelling Bluetooth headphones</p>
 </div>
 ```
-###
+
+
+### Output:
 ```json
 {
   "title": "Wireless Headphones",
@@ -40,12 +45,3 @@ The dataset consists of e-commerce HTML pages such as:
   "description": "Noise cancelling Bluetooth headphones"
 }
 ```
-
-### Instruction:
-Extract product details from the HTML.
-
-### Input:
-<raw html>
-
-### Output:
-<structured json>
